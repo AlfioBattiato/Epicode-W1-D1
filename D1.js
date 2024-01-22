@@ -62,7 +62,6 @@ console.log(x)
 //const myName = "battiato";                in questo caso non possiamo modificare questa esatta variabile perchè stiamo cercando
 // di instanziare una nuova variabile utilizzando il nome di una già esistente, oltretutto se dichiariamo una CONST non può altrettando
 //essere modificata perchè avrà un valore appositivamente constante! per tanto se vogliamo modificarla la corretta assegnazione sarebbe:
-
  myName="battiato"
  console.log(myName)
 
@@ -89,4 +88,4 @@ let name1="john";
 let name2="John"
 
 console.log(name1===name2)
-console.log(name1===name2.toLocaleLowerCase())
+console.log(name1.toLowerCase===name2.toLowerCase())
